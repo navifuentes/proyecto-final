@@ -1,0 +1,34 @@
+.main {
+  background-color: $primaryColor;
+}
+// TEXTO 
+h2{
+    color: beige;
+}
+.texto {
+  text-align: justify;
+  color: beige;
+}
+// MEDIOS DE PAGO 
+.rectangulo {
+    display: inline-flex;
+    height: auto;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 8px 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+  }
+  .pagos {
+    display: block;
+    text-align: center;
+  }
+  .tarjetas {
+    width: auto;
+    max-height: 4rem;
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid black;
+  }

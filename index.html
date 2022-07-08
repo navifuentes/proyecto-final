@@ -1,12 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mari Mari</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      s
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/d343ad545d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand titulo" href="./index.html">Mari Mari</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./productos.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./productos.html"
+                    >Agrotilenos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html">Alambres</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html">Caños</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html"
+                    >Herramientas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html"
+                    >Electricidad</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html">Pinturas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html"
+                    >Prod. Adherentes</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html"
+                    >Tornillerías</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ofertas.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-secondary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- BANNER -->
+    <div class="banner"></div>
+    <!-- MAIN -->
+    <div class="main text-center">
+      <!-- ESPACIADOR -->
+      <div class="espaciador1"></div>
+      <!-- CARRUSEL -->
+      <div class="container carrMedia">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="7"
+              aria-label="Slide 8"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item carrBox active">
+              <img
+                src="./img/agrotilenos.jpg"
+                class="d-block w-100"
+                alt="Rollo de agrotilenos"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Agrotilenos</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/alambres.jpg"
+                class="d-block w-100"
+                alt="Rollos de alambres"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Alambres</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/caños.jpg"
+                class="d-block w-100"
+                alt="caños rojos"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Caños</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/tools.jpg"
+                class="d-block w-100"
+                alt="erramientas"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Herramientas</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/electricidad.jpg"
+                class="d-block w-100"
+                alt="cables electricos"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Electricidad</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/pinturas.jpg"
+                class="d-block w-100"
+                alt="pinturas"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Pinturas</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/articulos2.jpg"
+                class="d-block w-100"
+                alt="pegamentos"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Productos Adherentes</h5>
+              </div>
+            </div>
+            <div class="carousel-item carrBox">
+              <img
+                src="./img/tornillerias.jpg"
+                class="d-block w-100"
+                alt="tornillos varios"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+              >
+                <h5>Tornillerías</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- ESPACIADOR CARRUSEL  -->
+      <div class="espaciador2"></div>
+      <!-- H2 Y TEXTO -->
+      <div class="container">
+        <h2>Lorem, ipsum.</h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+          autem officiis. Aliquam ratione laudantium eos, iusto vitae at magnam
+          facere modi sunt odit iste. Fugit aperiam incidunt quasi voluptatem
+          consectetur exercitationem, minus accusamus maxime quos impedit!
+          Reiciendis, architecto molestias! At consectetur pariatur voluptas
+          accusamus. Repellendus quidem placeat provident esse tenetur dolorum
+          quod vel sit quia cupiditate velit neque inventore culpa consequatur
+          temporibus reiciendis eius, dolores optio? Amet accusantium nesciunt
+          dolores nulla assumenda perspiciatis iusto aut asperiores corporis
+          molestiae vitae fugiat, ipsum natus, explicabo sit eos veritatis!
+          Neque sed maxime modi itaque deleniti atque, eius amet excepturi quae,
+          ducimus accusamus possimus error! Placeat perferendis velit nam,
+          quidem quod dolore quis quaerat. Aliquid excepturi saepe quis eaque?
+          Impedit, aperiam perferendis? Illo inventore, ut velit deleniti
+          impedit minima, veniam rem animi odit atque quisquam quis sapiente
+          neque expedita doloremque autem. Quas id consequatur maiores nemo
+          dolorem autem et inventore. Neque tempore maxime ut porro autem quo
+          fugiat et exercitationem nulla? Amet quam quaerat consequuntur
+          laudantium error, molestias architecto accusamus illum pariatur
+          aliquam. Sunt ad odio aperiam minima fugit quaerat amet quos minus
+          exercitationem!
+        </p>
+      </div>
+      <!-- ESPACIADOR TEXTO -->
+      <div class="espaciador3"></div>
+      <!-- MEDIOS DE PAGO -->
+      <div class="rectangulo pagos mb-0">
+        <h2>Medios de pago :</h2>
+        <img
+          class="tarjetas"
+          src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/mastercard@2x.png"
+          alt=""
+        />
+        <img
+          class="tarjetas"
+          src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visa@2x.png"
+          alt=""
+        />
+        <img
+          class="tarjetas"
+          src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/cabal@2x.png"
+          alt=""
+        />
+        <img
+          class="tarjetas"
+          src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/banelco@2x.png"
+          alt=""
+        />
+        <img
+          class="tarjetas"
+          src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/tarjeta-naranja@2x.png"
+          alt=""
+        />
+        <img
+          class="tarjetas"
+          src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/mercadopago@2x.png"
+          alt=""
+        />
+      </div>
+      <!-- ESPACIADOR PAGOS -->
+      <div class="espaciador3"></div>
+      <!-- CARDS -->
+      <div class="cards">
+        <h2 class="mb-0">Más vendidos :</h2>
+        <br />
+        <!-- CARD GROUP -->
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_696870-MLA48455499225_122021-F.webp"
+              class="card-img-top cardImg"
+              alt="Hormigonera de dos ruedas tipo trompo"
+            />
+            <div class="card-body cardBg">
+              <h5 class="card-title">Hormigonera BenQ - 130 lts - 3/4 HP</h5>
+              <p class="card-text">$35.550 !!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"
+                >Última actualización hace 30 minutos</small
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_799186-MLA47856069778_102021-F.webp"
+              class="card-img-top cardImg"
+              alt="Covertor de espuma aluminio para caños"
+            />
+            <div class="card-body cardBg">
+              <h5 class="card-title">Cobertor para caños 3/4" x 2 mts</h5>
+              <p class="card-text">$150 !!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"
+                >Última actualización hace 30 minutos</small
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_928484-MLA46386878034_062021-F.webp"
+              class="card-img-top cardImg"
+              alt="Taladro inalamabrico con estuche y cargador"
+            />
+            <div class="card-body cardBg">
+              <h5 class="card-title">
+                Taladro inalámbrico DeWalt - 13mm - 220v
+              </h5>
+              <p class="card-text">$65.000 !!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"
+                >Última actualización hace 30 minutos</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ESPACIADOR PAGOS -->
+      <div class="espaciador2"></div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <ol class="footer mb-0">
+        <div class="footIzq">
+          <h6 class="mb-0 mt-2">SEGUINOS:</h6>
+          <div class="icons">
+            <a href="https://www.instagram.com"
+              ><i class="fa-brands fa-instagram-square"></i
+            ></a>
+            <a href="https://www.facebook.com"
+              ><i class="fa-brands fa-facebook-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="info">
+          <i class="fa-solid fa-phone"></i>
+          <span> 0299 504-4599</span>
+          <a href="https://www.google.com/maps"
+            ><i class="fa fa-map-location-dot"></i
+          ></a>
+          <span>Esq. Belgrano y Godoy <br />Q8300 Neuquén Capital</span>
+        </div>
+      </ol>
+    </footer>
+    <!-- SCRIPT JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,19 @@
+// CARDS
+.cards{
+  padding: 0px 2rem;
+  // TAMAÑO IMAGENES
+  .cardImg{
+    height: 240px;
+  }
+  // CARDS BACKGROUND
+  .cardBg {
+    background-color: $primaryColor;
+    color: $primaryText;
+    p {
+      color: $secondaryText;
+    }
+  }
+}
+
+
+

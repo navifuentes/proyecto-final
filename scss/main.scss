@@ -1,0 +1,14 @@
+//VARIABLES
+@import "./variables/variables";
+//BASE
+@import "./base/reset.scss";
+@import "./base/typo.scss";
+//COMPONENTES
+@import "./components/carousel";
+@import "./components/cards";
+
+//LAYOUT
+@import "./layout/index";
+@import "./layout/navbar";
+@import "./layout/espaciadores";
+@import "./layout/footer";

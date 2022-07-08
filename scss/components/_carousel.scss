@@ -1,0 +1,18 @@
+/* MEDIA QUERIES ******************************************/
+.carrMedia{
+    width: 50vw;
+ }
+/* MOBILE LAST - MAX WIDTH ******************************/
+/* TABLET ********************************************* */
+@media (max-width: 768px) {
+   
+    .carrMedia{
+      width: 60vw;
+   }
+  }
+  /*  SMALL ***********************************************/
+  @media (max-width: 425px) {    
+    .carrMedia{
+          width: 95vw;
+       }   
+  }

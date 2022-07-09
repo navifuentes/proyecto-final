@@ -4,6 +4,16 @@
   padding: 0;
   font-family: sans-serif; }
 
+h2 {
+  color: beige; }
+
+.texto {
+  text-align: justify;
+  color: beige; }
+
+a {
+  text-decoration: none; }
+
 /* MEDIA QUERIES ******************************************/
 .carrMedia {
   width: 50vw; }
@@ -19,33 +29,29 @@
   .carrMedia {
     width: 95vw; } }
 
-.cards {
+.cardIndex {
   padding: 0px 2rem; }
-  .cards .cardImg {
+  .cardIndex .cardImg {
     height: 240px; }
-  .cards .cardBg {
+  .cardIndex .cardBg {
     background-color: #07395f;
     color: bisque; }
-    .cards .cardBg p {
+    .cardIndex .cardBg p {
       color: cyan; }
-  .cards .cardButton {
+  .cardIndex .cardButton {
     background-color: blue;
     color: white; }
 
 .cardLink:hover {
   cursor: pointer;
   transform: scale(1.05);
-  transition: 3s; }
+  transition: 1s; }
+
+.col .card-title {
+  color: #7D1128; }
 
 .main {
   background-color: #07395f; }
-
-h2 {
-  color: beige; }
-
-.texto {
-  text-align: justify;
-  color: beige; }
 
 .rectangulo {
   display: inline-flex;
@@ -95,12 +101,8 @@ h2 {
   padding: 1vh 0; }
 
 .espaciador4 {
-  height: 13vh;
+  height: 90px;
   background-color: black; }
-
-@media (max-width: 768px) {
-  .espaciador4 {
-    height: 17vh; } }
 
 .footer {
   background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%);
@@ -141,7 +143,7 @@ h2 {
 .banner {
   display: flex;
   width: 100%;
-  height: 5vh;
+  height: 2rem;
   background-color: black;
   color: yellow;
   flex-wrap: nowrap;
@@ -149,10 +151,19 @@ h2 {
   align-items: center; }
   .banner p {
     display: inline;
-    margin: 0; }
+    margin: 0;
+    --animate-duration: 6s; }
   .banner button {
-    padding: 2px; }
+    padding: 2px;
+    margin: 0; }
 
 @media (max-width: 425px) {
   .banner {
     height: 12vh; } }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .formulario span {
+    color: bisque; }

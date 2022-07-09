@@ -1,5 +1,5 @@
-// CARDS
-.cards {
+// CARDS INDEX
+.cardIndex {
   padding: 0px 2rem;
   // TAMAÑO IMAGENES
   .cardImg {
@@ -18,11 +18,18 @@
     color: white;
   }
 }
-
+//CARD LINKS
 .cardLink {
   &:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition: 3s;
+    transition: 1s;
+  }
+}
+
+//CARD OFERTAS
+.col {
+  .card-title {
+    color: $priceText;
   }
 }

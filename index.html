@@ -111,10 +111,10 @@
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Realize una busqueda"
               aria-label="Search"
             />
-            <button class="btn btn-secondary" type="submit">Search</button>
+            <button class="btn btn-secondary" type="submit">Buscar</button>
           </form>
         </div>
       </div>
@@ -123,13 +123,18 @@
     <div class="espaciador4"></div>
     <!-- BANNER -->
     <div class="banner">
-      <p class="animate__animated animate__lightSpeedInRight">No olvides suscribirte a nuestro newsletter para obtener los mejores beneficios !!!</p>
-      <button>Suscribirme</button>
+      <p class="animate__animated animate__fadeIn animate__infinite">
+        No olvides suscribirte a nuestro newsletter para obtener los mejores
+        beneficios !!!
+      </p>
+      <a href="./contacto.html">
+        <button>Suscribirme</button>
+      </a>
     </div>
-    <!-- MAIN -->
-    <div class="main text-center">
+    <!-- MAIN - INDEX -->
+    <div class="main px-1 text-center">
       <!-- ESPACIADOR -->
-      <div class="espaciador1"></div>
+      <div class="espaciador2"></div>
       <!-- CARRUSEL -->
       <div class="container carrMedia">
         <div
@@ -137,6 +142,7 @@
           class="carousel slide"
           data-bs-ride="false"
         >
+          <!-- BOTONES INDICADORES -->
           <div class="carousel-indicators">
             <button
               type="button"
@@ -189,112 +195,138 @@
               aria-label="Slide 8"
             ></button>
           </div>
+          <!-- ITEMS -->
           <div class="carousel-inner">
+            <!-- ITEM - AGROTILENOS -->
             <div class="carousel-item carrBox active">
-              <img
-                src="./img/agrotilenos.jpg"
-                class="d-block w-100"
-                alt="Rollo de agrotilenos"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Agrotilenos</h5>
-              </div>
+              <a href="./productos.html">
+                <img
+                  src="./img/agrotilenos.jpg"
+                  class="d-block w-100"
+                  alt="Rollo de agrotilenos"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Agrotilenos</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - ALAMBRES -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/alambres.jpg"
-                class="d-block w-100"
-                alt="Rollos de alambres"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Alambres</h5>
-              </div>
+              <a href="/ofertas.html">
+                <img
+                  src="./img/alambres.jpg"
+                  class="d-block w-100"
+                  alt="Rollos de alambres"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Alambres</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - CAÑOS -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/caños.jpg"
-                class="d-block w-100"
-                alt="caños rojos"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Caños</h5>
-              </div>
+              <a href="./ofertas.html">
+                <img
+                  src="./img/caños.jpg"
+                  class="d-block w-100"
+                  alt="caños rojos"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Caños</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - HERRAMIENTAS -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/tools.jpg"
-                class="d-block w-100"
-                alt="herramientas"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Herramientas</h5>
-              </div>
+              <a href="./ofertas.html">
+                <img
+                  src="./img/tools.jpg"
+                  class="d-block w-100"
+                  alt="herramientas"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Herramientas</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - ELECTRICIDAD -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/electricidad.jpg"
-                class="d-block w-100"
-                alt="cables electricos"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Electricidad</h5>
-              </div>
+              <a href="./ofertas.html">
+                <img
+                  src="./img/electricidad.jpg"
+                  class="d-block w-100"
+                  alt="cables electricos"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Electricidad</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - PINTURAS -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/pinturas.jpg"
-                class="d-block w-100"
-                alt="pinturas"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Pinturas</h5>
-              </div>
+              <a href="./ofertas.html">
+                <img
+                  src="./img/pinturas.jpg"
+                  class="d-block w-100"
+                  alt="pinturas"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Pinturas</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - ADHERENTES -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/articulos2.jpg"
-                class="d-block w-100"
-                alt="pegamentos"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Productos Adherentes</h5>
-              </div>
+              <a href="./ofertas.html">
+                <img
+                  src="./img/articulos2.jpg"
+                  class="d-block w-100"
+                  alt="productos adherentes"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Productos Adherentes</h5>
+                </div>
+              </a>
             </div>
+            <!-- ITEM - TORNILLOS -->
             <div class="carousel-item carrBox">
-              <img
-                src="./img/tornillerias.jpg"
-                class="d-block w-100"
-                alt="tornillos varios"
-                height="400px"
-              />
-              <div
-                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
-              >
-                <h5>Tornillerías</h5>
-              </div>
+              <a href="./ofertas.html">
+                <img
+                  src="./img/tornillerias.jpg"
+                  class="d-block w-100"
+                  alt="tornillos varios"
+                  height="400px"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light"
+                >
+                  <h5>Tornillerías</h5>
+                </div>
+              </a>
             </div>
           </div>
+          <!-- BOTONES LATERALES -->
           <button
             class="carousel-control-prev"
             type="button"
@@ -383,66 +415,75 @@
       <!-- ESPACIADOR PAGOS -->
       <div class="espaciador3"></div>
       <!-- CARDS -->
-      <div class="cards">
+      <div class="cardIndex">
         <h2 class="mb-0">Más vendidos :</h2>
         <br />
         <!-- CARD GROUP -->
         <div class="card-group">
+          <!-- CARD ITEM LEFT -->
           <div class="card cardLink">
-            <img
-              src="https://http2.mlstatic.com/D_NQ_NP_2X_696870-MLA48455499225_122021-F.webp"
-              class="card-img-top cardImg"
-              alt="Hormigonera de dos ruedas tipo trompo"
-            />
-            <div class="card-body cardBg">
-              <h5 class="card-title">Hormigonera BenQ - 130 lts - 3/4 HP</h5>
-              <p class="card-text">$35.550 !!</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"
-                >Última actualización hace 30 minutos
-              </small>
-            </div>
+            <a href="./ofertas.html">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_2X_696870-MLA48455499225_122021-F.webp"
+                class="card-img-top cardImg"
+                alt="Hormigonera de dos ruedas tipo trompo"
+              />
+              <div class="card-body cardBg">
+                <h5 class="card-title">Hormigonera BenQ - 130 lts - 3/4 HP</h5>
+                <p class="card-text">$35.550 !!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"
+                  >Última actualización hace 30 minutos
+                </small>
+              </div>
+            </a>
           </div>
+          <!-- CARD ITEM CENTER -->
           <div class="card cardLink">
-            <img
-              src="https://http2.mlstatic.com/D_NQ_NP_2X_799186-MLA47856069778_102021-F.webp"
-              class="card-img-top cardImg"
-              alt="Covertor de espuma aluminio para caños"
-            />
-            <div class="card-body cardBg">
-              <h5 class="card-title">Cobertor para caños 3/4" x 2 mts</h5>
-              <p class="card-text">$150 !!</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"
-                >Última actualización hace 30 minutos
-              </small>
-            </div>
+            <a href="./ofertas.html">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_2X_799186-MLA47856069778_102021-F.webp"
+                class="card-img-top cardImg"
+                alt="Covertor de espuma aluminio para caños"
+              />
+              <div class="card-body cardBg">
+                <h5 class="card-title">Cobertor para caños 3/4" x 2 mts</h5>
+                <p class="card-text">$150 !!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"
+                  >Última actualización hace 30 minutos
+                </small>
+              </div>
+            </a>
           </div>
+          <!-- CARD ITEM RIGHT -->
           <div class="card cardLink">
-            <img
-              src="https://http2.mlstatic.com/D_NQ_NP_2X_928484-MLA46386878034_062021-F.webp"
-              class="card-img-top cardImg"
-              alt="Taladro inalamabrico con estuche y cargador"
-            />
-            <div class="card-body cardBg">
-              <h5 class="card-title">
-                Taladro inalámbrico DeWalt - 13mm - 220v
-              </h5>
-              <p class="card-text">$65.000 !!</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"
-                >Última actualización hace 30 minutos
-              </small>
-            </div>
+            <a href="./ofertas.html">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_2X_928484-MLA46386878034_062021-F.webp"
+                class="card-img-top cardImg"
+                alt="Taladro inalamabrico con estuche y cargador"
+              />
+              <div class="card-body cardBg">
+                <h5 class="card-title">
+                  Taladro inalámbrico DeWalt 220v - 13mm
+                </h5>
+                <p class="card-text">$65.000 !!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"
+                  >Última actualización hace 30 minutos
+                </small>
+              </div>
+            </a>
           </div>
         </div>
         <!-- ESPACIADOR CARDS -->
         <div class="espaciador3"></div>
         <!-- BOTÓN VER MAS -->
-        <button class="p-1">Ver más</button>
+        <a href="./ofertas.html"><button class="p-1">Ver más</button></a>
       </div>
       <!-- ESPACIADOR PAGOS -->
       <div class="espaciador2"></div>

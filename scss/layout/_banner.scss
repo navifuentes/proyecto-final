@@ -1,7 +1,7 @@
 .banner{
     display: flex;
     width: 100%;
-    height: 5vh;
+    height: 2rem;
     background-color: black;
     color: yellow;
     flex-wrap: nowrap;
@@ -10,15 +10,18 @@
     p{
         display: inline;
         margin: 0;
+        --animate-duration: 6s;
     }
     button{
         padding: 2px;
+        margin: 0;
     }
 }
 
 // MEDIA QUERIES
 //MOBILE LAST - MAX WIDTH
 //SMALL
+
 @media (max-width: 425px){
     .banner{
         height: 12vh;

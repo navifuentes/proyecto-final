@@ -1,0 +1,26 @@
+.banner{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    color: yellow;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    p{
+        display: inline;
+        margin: 0;
+    }
+    button{
+        padding: 2px;
+    }
+}
+
+// MEDIA QUERIES
+//MOBILE LAST - MAX WIDTH
+//SMALL
+@media (max-width: 425px){
+    .banner{
+        height: 10vh;
+    }
+}

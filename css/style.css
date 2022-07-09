@@ -1,3 +1,4 @@
+@import url(../node_modules/animate.css/animate.css);
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +28,14 @@
     color: bisque; }
     .cards .cardBg p {
       color: cyan; }
+  .cards .cardButton {
+    background-color: blue;
+    color: white; }
+
+.cardLink:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 3s; }
 
 .main {
   background-color: #07395f; }
@@ -85,6 +94,14 @@ h2 {
 .espaciador3 {
   padding: 1vh 0; }
 
+.espaciador4 {
+  height: 13vh;
+  background-color: black; }
+
+@media (max-width: 768px) {
+  .espaciador4 {
+    height: 17vh; } }
+
 .footer {
   background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%);
   border-top: 0.2rem solid black;
@@ -120,3 +137,22 @@ h2 {
   display: flex;
   align-items: center;
   padding-right: 2rem; }
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  color: yellow;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .banner p {
+    display: inline;
+    margin: 0; }
+  .banner button {
+    padding: 2px; }
+
+@media (max-width: 425px) {
+  .banner {
+    height: 10vh; } }

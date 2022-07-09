@@ -8,3 +8,17 @@
 .espaciador3{
     padding: 1vh 0;
 }
+.espaciador4{
+  height: 13vh;
+  background-color: black;
+}
+
+// MEDIA QUERIES
+// MOBILE LAST - MAX WIDTH
+
+//TABLET
+@media (max-width: 768px) {
+  .espaciador4{
+    height: 17vh;
+  }
+}

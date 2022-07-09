@@ -1,8 +1,8 @@
 // CARDS
-.cards{
+.cards {
   padding: 0px 2rem;
   // TAMAÑO IMAGENES
-  .cardImg{
+  .cardImg {
     height: 240px;
   }
   // CARDS BACKGROUND
@@ -13,7 +13,16 @@
       color: $secondaryText;
     }
   }
+  .cardButton {
+    background-color: blue;
+    color: white;
+  }
 }
 
-
-
+.cardLink {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 3s;
+  }
+}

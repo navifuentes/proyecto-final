@@ -47,8 +47,10 @@ a {
   transform: scale(1.05);
   transition: 1s; }
 
-.col .card-title {
-  color: #7D1128; }
+.row {
+  margin: 0px; }
+  .row .col .card-title {
+    color: #7D1128; }
 
 .main {
   background-color: #07395f; }
@@ -159,7 +161,7 @@ a {
 
 @media (max-width: 425px) {
   .banner {
-    height: 12vh; } }
+    height: 6rem; } }
 
 .formulario {
   display: flex;
@@ -167,3 +169,14 @@ a {
   flex-wrap: wrap; }
   .formulario span {
     color: bisque; }
+
+@media (max-width: 425px) {
+  .imgStaff {
+    max-width: 300px; } }
+
+.bodyBg {
+  background-color: silver; }
+  .bodyBg .list {
+    border: 2px black solid; }
+    .bodyBg .list .rowBg {
+      border-bottom: 1px black solid; }

@@ -1,0 +1,11 @@
+
+.bodyBg{
+    background-color: silver ;
+    .list {
+        border: 2px black solid;
+        // overflow: scroll;
+        .rowBg{
+            border-bottom: 1px black solid;
+        }    
+        }
+}

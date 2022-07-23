@@ -28,8 +28,11 @@
 }
 
 //CARD OFERTAS
-.col {
-  .card-title {
-    color: $priceText;
+.row {
+  margin: 0px;
+  .col {
+    .card-title {
+      color: $priceText;
+    }
   }
 }

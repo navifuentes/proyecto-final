@@ -1,12 +1,39 @@
+//NAVBAR
+.navbar {
+  li {
+    a {
+      font-size: 0.8rem;
+      font-family: "Rubik Mono One", sans-serif;
+    }
+  }
+}
+
 // TEXTO
 h2 {
   color: beige;
+  font-weight: bold;
 }
 .texto {
   text-align: justify;
   color: beige;
 }
 // LINKS - ETIQUETA </a>
-a{
+a {
   text-decoration: none;
+}
+
+// FOOTER
+.footer {
+  h6 {
+    font-size: 20px;
+    font-family: "Rubik Mono One", sans-serif;
+    padding-top: 1rem;
+  }
+  span {
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+  }
+  li {
+    font-family: "Roboto Mono", monospace;
+  }
 }

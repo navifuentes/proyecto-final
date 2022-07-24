@@ -2,10 +2,16 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  list-style: none; }
+
+.navbar li a {
+  font-size: 0.8rem;
+  font-family: "Rubik Mono One", sans-serif; }
 
 h2 {
-  color: beige; }
+  color: beige;
+  font-weight: bold; }
 
 .texto {
   text-align: justify;
@@ -14,9 +20,17 @@ h2 {
 a {
   text-decoration: none; }
 
-/* MEDIA QUERIES ******************************************/
-.carrMedia {
-  width: 50vw; }
+.footer h6 {
+  font-size: 20px;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 1rem; }
+
+.footer span {
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace; }
+
+.footer li {
+  font-family: "Roboto Mono", monospace; }
 
 /* MOBILE LAST - MAX WIDTH ******************************/
 /* TABLET ********************************************* */
@@ -82,13 +96,15 @@ a {
   top: 0;
   width: 100%;
   z-index: 100; }
-
-.titulo {
-  font-family: "Limelight", cursive;
-  font-size: 40px; }
-
-.dropdown-menu {
-  background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%); }
+  .navbar a {
+    font-family: "Limelight", cursive;
+    font-weight: bolder; }
+  .navbar a:hover {
+    background-color: lighter; }
+  .navbar .titulo {
+    font-size: 40px; }
+  .navbar .dropdown-menu {
+    background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%); }
 
 .espaciador1 {
   padding: 10vh 0;
@@ -98,23 +114,32 @@ a {
   padding: 4vh 0; }
 
 .espaciador3 {
-  padding: 1vh 0; }
+  padding: 1vh 0;
+  background-color: #07395f; }
 
 .espaciador4 {
   height: 90px;
   background-color: black; }
 
 .footer {
+  min-height: 20vh;
   background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%);
-  border-top: 0.2rem solid black;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
-  flex-direction: row; }
+  justify-content: space-around;
+  border-top: 0.2rem solid black;
+  border-bottom: 0.2rem solid black; }
+  .footer .footDer {
+    display: flex; }
+    .footer .footDer .info {
+      display: flex;
+      flex-direction: column; }
+  .footer .redes {
+    text-align: center; }
 
 .footer i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.75rem; }
 
 .footer i:hover {
@@ -125,20 +150,10 @@ a {
   text-decoration: none;
   color: black; }
 
-.footIzq {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.icons {
-  display: flex;
-  align-items: center; }
-
-.info {
-  display: flex;
-  align-items: center;
-  padding-right: 2rem; }
+.endPage {
+  background-color: #07395f;
+  color: bisque;
+  text-align: center; }
 
 .banner {
   display: flex;

@@ -5,16 +5,22 @@
   top: 0;
   width: 100%;
   z-index: 100;
-}
-.titulo {
-  font-family: "Limelight", cursive;
-  font-size: 40px;
-}
-.dropdown-menu {
-  background: linear-gradient(
-    137.22deg,
-    #293444 0%,
-    #afb5b5 47.98%,
-    #293444 100%
-  );
+  a {
+    font-family: "Limelight", cursive;
+    font-weight: bolder;
+  }
+  a:hover{    
+   background-color: lighter;
+  }
+  .titulo {
+    font-size: 40px;   
+  }  
+  .dropdown-menu {
+    background: linear-gradient(
+      137.22deg,
+      #293444 0%,
+      #afb5b5 47.98%,
+      #293444 100%
+    );
+  }
 }

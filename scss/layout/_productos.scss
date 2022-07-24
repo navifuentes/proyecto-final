@@ -1,0 +1,111 @@
+// PRODUCTS GRID
+.products {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 25vh 25vh 25vh 25vh;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8";
+  :hover {
+    opacity: 0.8;
+  }
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+.img8 {
+  grid-area: img8;
+}
+
+//ESTILOS IMGS
+.products {
+  overflow: hidden;
+  img {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    height: 5rem;
+  }
+  //BACKGROUND IMGS
+  .img1 {
+    background-size: cover;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.homedepot.com.mx%2Fwp-content%2Fuploads%2F2017%2F04%2Fpintando-la-pared.jpg&f=1&nofb=1);
+  }
+  .img2 {
+    background-size: cover;
+    background-image: url(https://i1.rozetka.ua/goods/1750776/black_decker_bdchd18kb_images_1750776763.jpg);
+  }
+  .img3 {
+    background-size: cover;
+    background-image: url(https://media.irimo.com/media/wysiwyg/irimo_pliers2.png);
+  }
+  .img4 {
+    background-size: cover;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.PhH0mvP3HgW-WOZVZphvfAHaEK%26pid%3DApi&f=1);
+  }
+  .img5 {
+    background-size: cover;
+    background-image: url(https://media.bahco.com/media/PTA/header_powertools.jpg);
+  }
+  .img6 {
+    background-size: cover;
+    background-image: url(https://ips-arg.com/wp-content/uploads/2017/09/fusion-banner-2019.jpg);
+  }
+  .img7 {
+    background-size: cover;
+    background-image: url(https://www.dogoherramientas.com.ar/Image/0/500_300-SOLDADURA.jpg);
+  }
+  .img8 {
+    background-size: cover;
+    background-image: url(https://www.poxipol.com.ro/images/featured-4.jpg);
+  }
+}
+
+//MEDIA QUERIES
+//MOBILE LAST
+//
+@media (max-width: 768px) {
+  .products {
+    img {
+      height: 3rem;
+      position: relative;
+      top: 1rem;
+      left: -5rem;
+    }
+  }
+}
+
+@media (max-width: 425px){
+    
+}

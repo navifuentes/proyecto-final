@@ -8,7 +8,7 @@
   <!-- KEYWORDS -->
   <meta name="keywords" content="mari, mari mari, ferretería, productos, herramientas, ofertas">
   <!-- META DESCRIPTION -->
-  <meta name="description" content="Accede a nuestro variado catalogo de productos en nuestra pagina web.">
+  <meta name="description" content="Contactanos de las formas aquí disponibles.">
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" s
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
@@ -20,7 +20,7 @@
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/d343ad545d.js" crossorigin="anonymous"></script>
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="../css/style.css" />
   <title>Mari Mari | Inicio</title>
 </head>
 
@@ -28,51 +28,23 @@
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand titulo" href="./index.html">Mari Mari</a>
+      <a class="navbar-brand titulo" href="../index.html">Mari Mari</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse pt-4 ps-3" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">Inicio</a>
+            <a class="nav-link" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="./productos.html">
               Productos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="./productos.html">Agrotilenos</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Alambres</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Caños</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Herramientas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Electricidad</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Pinturas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Prod. Adherentes</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Tornillerías</a>
-              </li>
-            </ul>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="./ofertas.html">Ofertas</a>
           </li>
@@ -99,38 +71,52 @@
       <button>Suscribirme</button>
     </a>
   </div>
-  <!-- ESPACIADOR BANNER -->
-  <div class="espaciador2"></div>
   <!-- MAIN -->
-  <div class="main px-1 text-center ">
-    <!-- H2 -->
-    <h2>NUESTRO CATALOGO</h2>
-    <!-- PRODUCTOS -->
-    <div class="products">
-      <div class="img1"><img src="https://www.dantepinturerias.com/wp-content/uploads/2019/11/logo-dante.png"
-          alt="Logo sinteplast"></div>
-      <div class="img2"><img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.YDqcwikcfZSjrLKW7ojuewHaE8%26pid%3DApi&f=1"
-          alt="Logo black y decker"></div>
-      <div class="img3"><img
-          src="https://www.irimo.com/static/version1658251676/frontend/On4u/irimo/en_US/images/logo.svg"
-          alt="Logo irimo"></div>
-      <div class="img4"><img src="https://www.gherardi.com.ar/wp-content/uploads/2017/11/logo-gherardi.png"
-          alt="Logo gherardi"></div>
-      <div class="img5"><img
-          src="https://static.bahco.com/static/version1645451212/frontend/On4u/newbahco/en_US/images/logo.svg"
-          alt="Logo bahco"></div>
-      <div class="img6"><img src="https://ips-arg.com/wp-content/uploads/2019/08/logo-ips-hover.png" alt="Logo Ips">
-      </div>
-      <div class="img7"><img src="https://www.dogoherramientas.com.ar/Pubs/Sites/Default/Config/logo.png"
-          alt="Logo dogo"></div>
-      <div class="img8"><img src="https://www.poxipol.com.ro/images/logo-header.png" alt=""></div>
-    </div>
-    <!-- ESPACIADOR PRODUCTOS -->
+  <div class="main px-1 text-center">
+    <!-- ESPACIADOR -->
+    <div class="espaciador3"></div>
+    <h2>Contáctanos</h2>
+    <div class="espaciador3"></div>
+    <!-- FORM -->
+    <form action="#" method="get" class="formulario">
+      <label>
+        <input type="text" placeholder="Nombre" name="nombre">
+        <br><br>
+      </label>
+      <label>
+        <input type="text" placeholder="Apellido" name="apellido">
+        <br><br>
+      </label>
+      <label>
+        <input type="number" placeholder="Edad" name="edad">
+        <br><br>
+      </label>
+      <label>
+        <input type="email" placeholder="email@ejemplo.com" name="correo-electronico">
+        <br></br>
+      </label>
+      <label>
+        <input type="checkbox" name="noticias">
+        <span>Suscribirme al newsletter</span>
+        <br><br>
+      </label>
+      <label>
+        <textarea name="Comentario" placeholder="Deje su comentario." cols="30" rows="10"></textarea>
+        <br><br>
+      </label>
+      <label>
+        <input type="submit">
+      </label>
+    </form>
+    <!-- ESPACIADOR -->
     <div class="espaciador2"></div>
-    <!-- BOTÓN VER MAS -->
-    <a href="./ofertas.html"><button class="p-1">Ver más</button></a>
-    <!-- ESPACIADOR BOTÓN -->
+    <h2>Encuentranos</h2>
+    <div class="espaciador3"></div>
+    <!-- MAP -->
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.2402895528912!2d-68.11720942776464!3d-38.9503982605576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960bccca84566b09%3A0xea269006ef36cc07!2sFerreteria%20Mari%20Mari!5e0!3m2!1ses!2sar!4v1658721603971!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- ESPACIADOR -->
     <div class="espaciador2"></div>
   </div>
   <!-- FOOTER -->

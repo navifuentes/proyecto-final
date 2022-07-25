@@ -1,29 +1,66 @@
-.banner{
+.banner {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: yellow;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    display: inline;
+    margin: 0;
+    --animate-duration: 6s;
+  }
+  button {
+    padding: 2px;
+    margin: 0;
+  }
+}
+.banner2 {
+  height: 40vh;
+  background-image: url(https://media.istockphoto.com/photos/customer-shopping-for-tools-at-a-hardwarestore-and-talking-to-a-picture-id1323082614?k=20&m=1323082614&s=612x612&w=0&h=gKaor4bGdVbzd9JGZlYC5HSdmY2aBuQGMe_l9BptsE0=);
+  background-size: cover;
+  overflow: hidden;
+  .banBox {
+    position: relative;
+    top: 4.5rem;
+
     display: flex;
-    width: 100%;
-    height: 2rem;
+    flex-direction: column;
+
     background-color: black;
-    color: yellow;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    p{
-        display: inline;
-        margin: 0;
-        --animate-duration: 6s;
-    }
-    button{
-        padding: 2px;
-        margin: 0;
-    }
+    opacity: 0.5;
+  }
+  .banBox:hover {
+    opacity: 0.75;
+  }
+}
+.banner3 {
+  height: 40vh;
+  background-image: url(https://media.istockphoto.com/photos/business-manager-looking-happy-working-at-a-hardware-store-picture-id1323082723?k=20&m=1323082723&s=612x612&w=0&h=G-zFzkzJZ_cHrWik36lW8fBsALNxzRNgJWYL02ie8nY=);
+  background-size: cover;
+  overflow: hidden;
+  .banBox {
+    position: relative;
+    top: 5.5rem;
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    opacity: 0.5;
+  }
+  .banBox:hover {
+    opacity: 0.75;
+  }
 }
 
 // MEDIA QUERIES
 //MOBILE LAST - MAX WIDTH
 //SMALL
 
-@media (max-width: 425px){
-    .banner{
-        height: 12vh;
-    }
+@media (max-width: 425px) {
+  .banner {
+    height: 12vh;
+  }
 }

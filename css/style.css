@@ -6,16 +6,24 @@
   list-style: none; }
 
 .navbar li a {
-  font-size: 0.8rem;
-  font-family: "Rubik Mono One", sans-serif; }
+  font-size: 1rem;
+  font-family: "Roboto Mono", sans-serif; }
 
 h2 {
+  font-size: 3rem;
   color: beige;
   font-weight: bold; }
 
+h3 {
+  color: beige; }
+
 .texto {
   text-align: justify;
-  color: beige; }
+  color: bisque; }
+
+.textoQ {
+  color: bisque;
+  font-size: 2rem; }
 
 a {
   text-decoration: none; }
@@ -89,6 +97,14 @@ a {
   padding: 5px;
   border: 2px solid black; }
 
+.botonA {
+  background-color: #07395f; }
+  .botonA .botonB {
+    background-color: gray;
+    padding: 1rem; }
+    .botonA .botonB a {
+      color: bisque; }
+
 .navbar {
   background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%);
   border-bottom: 0.2rem black solid;
@@ -102,9 +118,13 @@ a {
   .navbar a:hover {
     background-color: rgba(0, 0, 0, 0.247); }
   .navbar .titulo {
-    font-size: 40px; }
+    font-size: 2rem; }
   .navbar .dropdown-menu {
     background: linear-gradient(137.22deg, #293444 0%, #afb5b5 47.98%, #293444 100%); }
+
+@media (min-width: 1024px) {
+  .navbar-nav {
+    align-items: flex-end; } }
 
 .espaciador1 {
   padding: 10vh 0;
@@ -173,6 +193,36 @@ a {
   .banner button {
     padding: 2px;
     margin: 0; }
+
+.banner2 {
+  height: 40vh;
+  background-image: url(https://media.istockphoto.com/photos/customer-shopping-for-tools-at-a-hardwarestore-and-talking-to-a-picture-id1323082614?k=20&m=1323082614&s=612x612&w=0&h=gKaor4bGdVbzd9JGZlYC5HSdmY2aBuQGMe_l9BptsE0=);
+  background-size: cover;
+  overflow: hidden; }
+  .banner2 .banBox {
+    position: relative;
+    top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.5; }
+  .banner2 .banBox:hover {
+    opacity: 0.75; }
+
+.banner3 {
+  height: 40vh;
+  background-image: url(https://media.istockphoto.com/photos/business-manager-looking-happy-working-at-a-hardware-store-picture-id1323082723?k=20&m=1323082723&s=612x612&w=0&h=G-zFzkzJZ_cHrWik36lW8fBsALNxzRNgJWYL02ie8nY=);
+  background-size: cover;
+  overflow: hidden; }
+  .banner3 .banBox {
+    position: relative;
+    top: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.5; }
+  .banner3 .banBox:hover {
+    opacity: 0.75; }
 
 @media (max-width: 425px) {
   .banner {

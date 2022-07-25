@@ -1,6 +1,10 @@
 .main {
   background-color: $primaryColor;
 }
+
+//H2 Y TEXTOS
+
+
 // MEDIOS DE PAGO 
 .rectangulo {
     display: inline-flex;
@@ -24,3 +28,13 @@
     padding: 5px;
     border: 2px solid black;
   }
+.botonA{
+  background-color: $primaryColor;
+  .botonB{    
+    background-color: gray;
+    padding: 1rem;
+    a{
+      color: $primaryText;
+    }
+  }
+}

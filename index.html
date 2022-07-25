@@ -8,7 +8,8 @@
   <!-- KEYWORDS -->
   <meta name="keywords" content="mari, mari mari, ferretería, productos, herramientas, ofertas">
   <!-- META DESCRIPTION -->
-  <meta name="description" content="Encontrá todo lo que necesitas para la construcción y para reparar tu hogar. Atendemos tus consultas y presupuestos. Alta calidad. Bajo precios.">
+  <meta name="description"
+    content="Encontrá todo lo que necesitas para la construcción y para reparar tu hogar. Atendemos tus consultas y presupuestos. Alta calidad. Bajo precios.">
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" s
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
@@ -23,6 +24,7 @@
   <link rel="stylesheet" href="./css/style.css" />
   <title>Mari Mari | Inicio</title>
 </head>
+
 <body>
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg">
@@ -38,45 +40,17 @@
             <a class="nav-link" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+            <a class="nav-link" href="./pages/quienes-somos.html">Quienes Somos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="./pages/productos.html">
               Productos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="./productos.html">Agrotilenos</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Alambres</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Caños</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Herramientas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Electricidad</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Pinturas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Prod. Adherentes</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./productos.html">Tornillerías</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./ofertas.html">Ofertas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contacto</a>
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -89,12 +63,12 @@
   <!-- ESPACIADOR NAVBAR -->
   <div class="espaciador4"></div>
   <!-- BANNER -->
-  <div class="banner">
+  <div class="banner" id="Inicio">
     <p class="animate__animated animate__fadeIn animate__infinite">
       No olvides suscribirte a nuestro newsletter para obtener los mejores
       beneficios !!!
     </p>
-    <a href="./contacto.html">
+    <a href="./pages/contacto.html">
       <button>Suscribirme</button>
     </a>
   </div>
@@ -128,7 +102,7 @@
         <div class="carousel-inner">
           <!-- ITEM - AGROTILENOS -->
           <div class="carousel-item carrBox active">
-            <a href="./productos.html">
+            <a href="./pages/productos.html">
               <img src="./img/agrotilenos.jpg" class="d-block w-100" alt="Rollo de agrotilenos" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Agrotilenos</h5>
@@ -137,7 +111,7 @@
           </div>
           <!-- ITEM - ALAMBRES -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="./pages/productos.html">
               <img src="./img/alambres.jpg" class="d-block w-100" alt="Rollos de alambres" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Alambres</h5>
@@ -146,7 +120,7 @@
           </div>
           <!-- ITEM - CAÑOS -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="./pages/productos.html">
               <img src="./img/caños.jpg" class="d-block w-100" alt="caños rojos" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Caños</h5>
@@ -155,7 +129,7 @@
           </div>
           <!-- ITEM - HERRAMIENTAS -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="./pages/productos.html">
               <img src="./img/tools.jpg" class="d-block w-100" alt="herramientas" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Herramientas</h5>
@@ -164,7 +138,7 @@
           </div>
           <!-- ITEM - ELECTRICIDAD -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="./pages/productos.html">
               <img src="./img/electricidad.jpg" class="d-block w-100" alt="cables electricos" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Electricidad</h5>
@@ -173,7 +147,7 @@
           </div>
           <!-- ITEM - PINTURAS -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="../productos.html">
               <img src="./img/pinturas.jpg" class="d-block w-100" alt="pinturas" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Pinturas</h5>
@@ -182,7 +156,7 @@
           </div>
           <!-- ITEM - ADHERENTES -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="./pages/productos.html">
               <img src="./img/articulos2.jpg" class="d-block w-100" alt="productos adherentes" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Productos Adherentes</h5>
@@ -191,7 +165,7 @@
           </div>
           <!-- ITEM - TORNILLOS -->
           <div class="carousel-item carrBox">
-            <a href="./ofertas.html">
+            <a href="./pages/productos.html">
               <img src="./img/tornillerias.jpg" class="d-block w-100" alt="tornillos varios" height="400px" />
               <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 text-light">
                 <h5>Tornillerías</h5>
@@ -215,34 +189,26 @@
     <!-- ESPACIADOR CARRUSEL  -->
     <div class="espaciador2"></div>
     <!-- H2 Y TEXTO -->
-    <div class="container">
-      <h2>Los mejores productos al mejor precio !</h2>
-      <p class="texto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-        autem officiis. Aliquam ratione laudantium eos, iusto vitae at magnam
-        facere modi sunt odit iste. Fugit aperiam incidunt quasi voluptatem
-        consectetur exercitationem, minus accusamus maxime quos impedit!
-        Reiciendis, architecto molestias! At consectetur pariatur voluptas
-        accusamus. Repellendus quidem placeat provident esse tenetur dolorum
-        quod vel sit quia cupiditate velit neque inventore culpa consequatur
-        temporibus reiciendis eius, dolores optio? Amet accusantium nesciunt
-        dolores nulla assumenda perspiciatis iusto aut asperiores corporis
-        molestiae vitae fugiat, ipsum natus, explicabo sit eos veritatis!
-        Neque sed maxime modi itaque deleniti atque, eius amet excepturi quae,
-        ducimus accusamus possimus error! Placeat perferendis velit nam,
-        quidem quod dolore quis quaerat. Aliquid excepturi saepe quis eaque?
-        Impedit, aperiam perferendis? Illo inventore, ut velit deleniti
-        impedit minima, veniam rem animi odit atque quisquam quis sapiente
-        neque expedita doloremque autem. Quas id consequatur maiores nemo
-        dolorem autem et inventore. Neque tempore maxime ut porro autem quo
-        fugiat et exercitationem nulla? Amet quam quaerat consequuntur
-        laudantium error, molestias architecto accusamus illum pariatur
-        aliquam. Sunt ad odio aperiam minima fugit quaerat amet quos minus
-        exercitationem!
-      </p>
+    <div class="banner2">
+      <div class="banBox">
+        <h3 class="">Los mejores productos al mejor precio</h3>
+        <p class="texto text-center">
+          En ferretería Mari Mari nos comprometemos a garantizar el mejor precio de los mejores productos a nuestros
+          clientes. Es por eso que trabajabamos con las mejores marcas importadas y nacionales.
+        </p>
+      </div>
+    </div>
+    <!-- H2 Y TEXTO -->
+    <div class="banner3">
+      <div class="banBox">
+        <h3>La mejor atención</h3>
+        <p class="texto text-center">
+          Cientos de clientes nos valoran por nuestros asesoramientos a través de los años. Resultados asegurados.
+        </p>
+      </div>
     </div>
     <!-- ESPACIADOR TEXTO -->
-    <div class="espaciador3"></div>
+    <div class="espaciador2"></div>
     <!-- CARDS -->
     <div class="cardIndex">
       <h2 class="mb-0">Más vendidos :</h2>
@@ -251,7 +217,7 @@
       <div class="card-group">
         <!-- CARD ITEM LEFT -->
         <div class="card cardLink">
-          <a href="./ofertas.html">
+          <a href="./pages/ofertas.html">
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_696870-MLA48455499225_122021-F.webp"
               class="card-img-top cardImg" alt="Hormigonera de dos ruedas tipo trompo" />
             <div class="card-body cardBg">
@@ -266,7 +232,7 @@
         </div>
         <!-- CARD ITEM CENTER -->
         <div class="card cardLink">
-          <a href="./ofertas.html">
+          <a href="./pages/ofertas.html">
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_799186-MLA47856069778_102021-F.webp"
               class="card-img-top cardImg" alt="Covertor de espuma aluminio para caños" />
             <div class="card-body cardBg">
@@ -281,7 +247,7 @@
         </div>
         <!-- CARD ITEM RIGHT -->
         <div class="card cardLink">
-          <a href="./ofertas.html">
+          <a href="./pages/ofertas.html">
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_928484-MLA46386878034_062021-F.webp"
               class="card-img-top cardImg" alt="Taladro inalamabrico con estuche y cargador" />
             <div class="card-body cardBg">
@@ -300,7 +266,7 @@
       <!-- ESPACIADOR CARDS -->
       <div class="espaciador3"></div>
       <!-- BOTÓN VER MAS -->
-      <a href="./ofertas.html"><button class="p-1">Ver más</button></a>
+      <a href="./pages/ofertas.html"><button class="p-1">Ver más</button></a>
     </div>
     <!-- ESPACIADOR CARDS -->
     <div class="espaciador3"></div>
@@ -330,16 +296,22 @@
     <!-- ESPACIADOR PAGOS -->
     <div class="espaciador2"></div>
   </div>
+  <!-- BOTON VOLVER ARRIBA-->
+  <div class="botonA text-center">
+    <button class="botonB"><a href="index.html#Inicio">Volver arriba</a></button>
+    <!-- ESPACIADOR -->
+    <div class="espaciador2"></div>
+  </div>
   <!-- FOOTER -->
   <footer>
     <ol class="footer mb-0">
       <div class="footIzq">
         <h6>Navegación</h6>
         <ul>
-          <li><a href="./quienes-somos.html"> Quienes somos</a></li>
-          <li><a href="./productos.html"> Productos</a></li>
-          <li><a href="./ofertas.html"> Ofertas</a></li>
-          <li><a href="./contacto.html"> Contacto</a></li>
+          <li><a href="./pages/quienes-somos.html"> Quienes somos</a></li>
+          <li><a href="./pages/productos.html"> Productos</a></li>
+          <li><a href="./pages/ofertas.html"> Ofertas</a></li>
+          <li><a href="./pages/contacto.html"> Contacto</a></li>
         </ul>
 
       </div>

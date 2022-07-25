@@ -13,7 +13,7 @@
    background-color: $light;
   }
   .titulo {
-    font-size: 40px;   
+    font-size: 2rem;   
   }  
   .dropdown-menu {
     background: linear-gradient(
@@ -22,5 +22,11 @@
       #afb5b5 47.98%,
       #293444 100%
     );
+  }
+}
+
+@media (min-width: 1024px){
+  .navbar-nav{
+    align-items: flex-end;
   }
 }

@@ -2,20 +2,28 @@
 .navbar {
   li {
     a {
-      font-size: 0.8rem;
-      font-family: "Rubik Mono One", sans-serif;
+      font-size: 1rem;
+      font-family: "Roboto Mono", sans-serif;
     }
   }
 }
 
 // TEXTO
 h2 {
+  font-size: 3rem;
   color: beige;
   font-weight: bold;
 }
+h3{
+  color: beige;
+}
 .texto {
   text-align: justify;
-  color: beige;
+  color: $primaryText;
+}
+.textoQ{  
+  color: $primaryText;
+  font-size: 2rem;
 }
 // LINKS - ETIQUETA </a>
 a {

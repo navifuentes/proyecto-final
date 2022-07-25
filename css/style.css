@@ -258,3 +258,10 @@ a {
     position: relative;
     top: 1rem;
     left: -5rem; } }
+
+@media (max-width: 425px) {
+  .products img {
+    height: 2rem;
+    position: relative;
+    top: 1rem;
+    left: 0.5rem; } }

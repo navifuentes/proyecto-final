@@ -39,6 +39,11 @@ a {
 
 .footer li {
   font-family: "Roboto Mono", monospace; }
+  .footer li a {
+    color: black; }
+
+.footer i {
+  color: black; }
 
 /* MOBILE LAST - MAX WIDTH ******************************/
 /* TABLET ********************************************* */
